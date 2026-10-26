@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" font-family="Menlo, monospace" font-size="15">
+  <rect width="1000" height="330" fill="#0d1117"/>
+  <text x="24" y="38" fill="#8b949e" font-size="13">BRIEF LINE</text>
+  <text x="24" y="64" fill="#7ee787">✓  3 PRs ready to merge: api#412, web#2187, cli#73</text>
+
+  <text x="24" y="118" fill="#f0883e" font-size="13">BEFORE: Enter / click / o opens</text>
+  <rect x="24" y="130" width="952" height="52" rx="6" fill="#161b22" stroke="#f85149"/>
+  <text x="40" y="161" fill="#c9d1d9">github.com/acme/api/pull/412</text>
+  <text x="960" y="161" fill="#f85149" text-anchor="end">1 of 3, the rest unreachable</text>
+
+  <text x="24" y="226" fill="#3fb950" font-size="13">AFTER: Enter / click / o opens</text>
+  <rect x="24" y="238" width="952" height="70" rx="6" fill="#161b22" stroke="#3fb950"/>
+  <text x="40" y="266" fill="#c9d1d9">github.com/pulls?q=is:pr is:open archived:false author:@me org:acme</text>
+  <text x="40" y="290" fill="#c9d1d9">                   review:approved status:success</text>
+  <text x="960" y="290" fill="#3fb950" text-anchor="end">all of them, live</text>
+</svg>
